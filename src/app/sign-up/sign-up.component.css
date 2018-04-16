@@ -1,0 +1,23 @@
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+  margin-left: 33%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.signUp h2 {
+  text-align: center;
+  background: -webkit-linear-gradient(top, #02aab0, #00cdac);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.button-color {
+  background: -webkit-linear-gradient(top, #02aab0, #00cdac);
+  color: white;
+  margin-left: 33%;
+}

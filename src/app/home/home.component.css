@@ -1,0 +1,82 @@
+span {
+  padding: 30px;
+}
+
+.contentStyle {
+  margin: 180px;
+  margin-top: 40px;
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+
+mat-card {
+  margin-top: 20px;
+  box-shadow: none !important;
+}
+
+img {
+  width: 480px;
+  height: 548px;
+}
+
+.card-height {
+  width: 480px;
+  height: 548px;
+}
+
+.card-alignments p {
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+
+.method1 {
+  background: -webkit-linear-gradient(top, #02aab0, #00cdac);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header-color {
+  background: -webkit-linear-gradient(top, #02aab0, #00cdac);
+}
+
+.header-text-color {
+  color: white;
+}
+
+.grid-list-2 p {
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+
+.content-3-adjest {
+  margin-left: 100px;
+  height: 924px;
+  width: 1200px;
+}
+
+.content-3-adjest h1 {
+  font-size: 44px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.content-3-adjest p {
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+
+.p-adjestments {
+  padding: 2px;
+}

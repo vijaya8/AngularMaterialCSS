@@ -1,0 +1,8 @@
+h1.header-color {
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 54px;
+  background: -webkit-linear-gradient(top, #02aab0, #00cdac);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
