@@ -1,14 +1,48 @@
-<div class="login">
-  <h2>Login Form</h2>
-  <form class="example-form">
-    <mat-form-field class="example-full-width">
-      <input matInput placeholder="Enter User Name">
-    </mat-form-field>
+<mat-grid-list cols="2" rowHeight="1:1">
+  <mat-grid-tile>
+    <mat-card class="card-1">
+      <mat-card-content>
+        <div class="login">
+          <h2>Login Form</h2>
+          <form class="example-form">
+            <mat-form-field class="example-full-width">
+              <input matInput placeholder="Enter User Name">
+            </mat-form-field>
 
-    <mat-form-field class="example-full-width">
-      <input type="password" matInput placeholder="Enter password">
-    </mat-form-field>
-    <button mat-button class="button-color">Submit</button>
-  </form>
-</div>
+            <mat-form-field class="example-full-width">
+              <input type="password" matInput placeholder="Enter password">
+            </mat-form-field>
+            <button mat-button class="button-color">Login</button>
+          </form>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+
+  <mat-grid-tile>
+    <mat-card class="card-2">
+      <mat-icon>account_circle
+      </mat-icon>
+      <div>
+        <i class="welcome">Welcome to CSS World!</i><br/>
+        <button mat-button class="button-signup" (click)="signUp()"><i>SignUp</i></button>
+      </div>
+    </mat-card>
+  </mat-grid-tile>
+
+</mat-grid-list>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

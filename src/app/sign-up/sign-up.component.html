@@ -1,21 +1,40 @@
-<div class="signUp">
-  <h2>SignUp Form</h2>
-  <form class="example-form">
-    <mat-form-field class="example-full-width">
-      <input type="text" matInput placeholder="First Name">
-    </mat-form-field>
+<mat-grid-list cols="2" rowHeight="1:1">
+  <mat-grid-tile>
+    <mat-card class="signup-card-1">
+      <mat-icon>lock_open</mat-icon>
+      <div>
+        <i class="welcome">Welcome Back to CSS World!</i><br/>
+        <i class="welcome">Users Can login Here</i><br/>
+        <button mat-button class="button-signup" (click)="login()"><i>Login</i></button>
+      </div>
+    </mat-card>
+  </mat-grid-tile>
 
-    <mat-form-field class="example-full-width">
-      <input type="text" matInput placeholder="Last Name">
-    </mat-form-field>
+  <mat-grid-tile>
+    <mat-card class="signup-card-2">
+      <mat-card-content>
+        <div class="signUp">
+          <h2>SignUp</h2>
+          <form class="example-form">
+            <mat-form-field class="example-full-width">
+              <input type="text" matInput placeholder="First Name">
+            </mat-form-field>
 
-    <mat-form-field class="example-full-width">
-      <input type="text" matInput placeholder="Email">
-    </mat-form-field>
+            <mat-form-field class="example-full-width">
+              <input type="text" matInput placeholder="Last Name">
+            </mat-form-field>
 
-    <mat-form-field class="example-full-width">
-      <input type="password" matInput placeholder="Enter password">
-    </mat-form-field>
-    <button mat-button class="button-color">SignUp</button>
-  </form>
-</div>
+            <mat-form-field class="example-full-width">
+              <input type="text" matInput placeholder="Email">
+            </mat-form-field>
+
+            <mat-form-field class="example-full-width">
+              <input type="password" matInput placeholder="Enter password">
+            </mat-form-field>
+            <button mat-button class="button-color">SignUp</button>
+          </form>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>

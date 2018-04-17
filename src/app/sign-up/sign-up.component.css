@@ -1,16 +1,62 @@
 .example-form {
   min-width: 150px;
-  max-width: 500px;
+  max-width: 370px;
   width: 100%;
-  margin-left: 33%;
+  margin-left: 65px;
 }
 
 .example-full-width {
   width: 100%;
 }
 
+.signup-card-1 {
+  width: 444px;
+  height: 498px;
+  background: -webkit-linear-gradient(top, #00cdac, #96deda);
+  margin-left: 220px;
+
+}
+
+mat-icon {
+  color: white;
+  margin-left: 163px;
+  margin-top: 50px !important;
+  font-size: 100px;
+}
+
+.welcome {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'WorkSans', sans-serif;
+  letter-spacing: 1px;
+  line-height: 42px;
+}
+
+.button-signup {
+  background: -webkit-linear-gradient(top, #e2d1c3, #fdfcfb);
+  margin-top: 63px;
+  margin-left: 40px;
+  height: 45px;
+  width: 150px;
+  font-weight: bold;
+  font-size: 15.75px;
+  letter-spacing: 1.5px;
+  line-height: 24px;
+}
+
+.signup-card-2 {
+  width: 812px;
+  height: 498px;
+  margin-right: 55px;
+  box-shadow: none !important;
+}
+
 .signUp h2 {
-  text-align: center;
+  font-family: 'WorkSans', sans-serif;
+  font-weight: bold;
+  font-size: 34px;
+  letter-spacing: 1px;
   background: -webkit-linear-gradient(top, #02aab0, #00cdac);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -19,5 +65,9 @@
 .button-color {
   background: -webkit-linear-gradient(top, #02aab0, #00cdac);
   color: white;
-  margin-left: 33%;
+  margin-left: 65px;
+  margin-top: 23px;
+  width: 240px;
+  height: 45px;
+
 }

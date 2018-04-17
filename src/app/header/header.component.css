@@ -1,0 +1,11 @@
+.header-color {
+  background: -webkit-linear-gradient(top, #02aab0, #00cdac);
+}
+
+.header-text-color {
+  color: white;
+}
+
+span {
+  padding: 30px;
+}
