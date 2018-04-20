@@ -50,7 +50,6 @@ img {
 
 .card-3 {
   margin-left: 100px;
-  height: 924px;
   width: 1200px;
 }
 
@@ -70,4 +69,59 @@ img {
 
 .p-adjestments {
   padding: 2px;
+}
+
+.imag_changes img {
+  margin: 27px;
+  height: 400px;
+  width: 1200px;
+  background: -webkit-linear-gradient(top, #02aab0, #00cdac);
+}
+
+.imag_changes {
+  margin: 16px;
+  height: 450px;
+  width: 1250px;
+  background: -webkit-linear-gradient(top, #00cdac, #02aab0);
+}
+
+.team_header {
+  font-size: 32px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-align: center;
+  background: -webkit-linear-gradient(top, #02aab0, #00cdac);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blog {
+  width: 800px;
+  height: 300px !important;
+  margin-left: 230px;
+}
+
+.blog1 {
+  height: 394px;
+  width: 350px;
+  background: -webkit-linear-gradient(top, #02aab0, #00cdac);
+}
+
+.blog1 h1 {
+  color: white;
+  font-size: 32px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-top: 75px;
+}
+
+.blog1 p {
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  color: white;
 }
